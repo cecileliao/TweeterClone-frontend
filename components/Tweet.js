@@ -18,7 +18,7 @@ function Tweet(props) {
   }
 
   const likeCount = (id) => {
-    fetch('http://localhost:3000/tweets/like', {
+    fetch('https://tweeter-clone-backend.vercel.app//like', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ id:id, token: user.token })
@@ -33,7 +33,7 @@ function Tweet(props) {
 
 
   const deleteTweet = (id) => {
-    fetch('http://localhost:3000/tweets/del', {
+    fetch('https://tweeter-clone-backend.vercel.app//del', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ id:id, token: user.token })

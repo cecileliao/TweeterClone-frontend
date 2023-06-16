@@ -20,7 +20,7 @@ function Home() {
     if (!user.token) {
 			return;
 		}
-      fetch('http://localhost:3000/tweets', {
+      fetch('https://tweeter-clone-backend.vercel.app/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({token: user.token, tweet: message}),
@@ -42,7 +42,7 @@ function Home() {
     if (!user.token) {
             return;
         }
-    fetch('http://localhost:3000/tweets')
+    fetch('https://tweeter-clone-backend.vercel.app/')
       .then(response => response.json())
       .then(data => {
       if (data) {
@@ -66,7 +66,7 @@ function Home() {
     if (!user.token) {
             return;
         }
-    fetch('http://localhost:3000/tweets/trends')
+    fetch('https://tweeter-clone-backend.vercel.app//trends')
       .then(response => response.json())
       .then(data => {
       if (data) {
