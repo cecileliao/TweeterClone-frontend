@@ -1,4 +1,4 @@
-import styles from '../styles/login.module.css';
+import styles from '../styles/Login.module.css';
 
 import Signup from './Signup';
 import Signin from './Signin';
