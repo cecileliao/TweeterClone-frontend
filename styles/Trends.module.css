@@ -1,0 +1,14 @@
+.content {
+    
+}
+.title{
+    font-weight: bolder;
+}
+.title a {
+    color: rgb(14, 107, 247);
+}
+
+.count{
+    margin-top: 2px;
+    font-weight: lighter;
+}

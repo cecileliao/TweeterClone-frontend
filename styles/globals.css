@@ -1,0 +1,39 @@
+@import url(//db.onlinewebfonts.com/c/38d16ae93a514dfd43dfd4aa13f280fc?family=Mont+Heavy);
+
+body {
+  padding: 0;
+  margin: 0;
+
+  @font-face {
+      font-family: Verdana, sans-serif;
+      font-weight:normal;
+      font-style:normal;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Mont Heavy", Verdana, sans-serif;
+}
+
+#logo {
+  transform: translateY(5px);
+  animation: wavy 1.3s alternate steps(2, end) infinite;
+  animation-delay: 0s;
+}
+@keyframes wavy {
+  20%,
+  100% {
+    transform: translate(0, 5px);
+  }
+
+  0% {
+    transform: translate(0, 0px);
+  }
+  10% {
+    transform: translate(0, -5px);
+  }
+}
+
+
+

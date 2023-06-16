@@ -1,0 +1,72 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(18, 231, 64, 0.5)),  url("../public/logo.svg");
+}
+
+.contentLeft {
+  width: 30vw;
+  height: 100vh;
+}
+.content {
+  padding: 1em;
+  height: 100vh;
+  width: 70vw;
+  background: linear-gradient(rgba(0, 0, 0, 100), rgba(23, 10, 58, 0.8));
+  color: white;
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.signupBtn {
+  border-radius: 10px;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: white;
+  background-color: deepskyblue;
+  font-weight: bolder;
+  border-color: aqua;
+}
+.signupBtn:hover {
+  color: deepskyblue;
+  background-color: white;
+}
+
+.signinBtn {
+  border-radius: 10px;
+  border-color: aqua;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: deepskyblue;
+  background-color: transparent;
+  font-weight: bolder;
+}
+.signinBtn:hover {
+  color: white;
+  background-color: deepskyblue;
+}
+
+.signupModal {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+.signinModal {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  padding: 2px;
+}
+

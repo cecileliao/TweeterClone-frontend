@@ -1,0 +1,52 @@
+.header{
+    height: 100%;
+    width: 100%;
+    background-color: #161F2D;
+    padding: 20px;
+}
+
+.closeWindow{
+    size: 3vh;
+    float: right;
+    color: #F9F9FB;
+}
+
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3vh;
+}
+
+.logo{
+    height: 5vh;
+
+}
+
+.tagline{
+    color: #F9F9FB;
+}
+
+.input{
+    border-radius: 2px;
+    border: 1px solid #4B4F55;
+    color: #4B4F55;
+    padding: 1vh;
+    margin:1vh;
+
+}
+
+.signupBtn {
+    border-radius: 10px;
+    padding: 1vh;
+    color: #F9F9FB;
+    background-color: deepskyblue;
+    font-weight: bolder;
+    border-color: aqua;
+    margin: 1vh;
+  }
+  .signupBtn:hover {
+    color: deepskyblue;
+    background-color: #F9F9FB;
+  }

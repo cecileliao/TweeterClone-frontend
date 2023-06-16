@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(18, 231, 64, 0.5));
+    color:#F9F9FB;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    border-right: 1px solid #F9F9FB;
+}
+.logo{
+    height: 100px;
+    padding: 2vh;
+    justify-self: center
+}
+.logo:hover{
+    cursor: pointer;
+}
+.userContainer{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding: 2vh;
+    border-radius: 50%;
+}
+.nameContainer{
+    display: flex;
+    flex-direction: column;
+}
+.firstname{
+    font-size: medium;
+    margin-bottom: 0;
+}
+.username{
+    font-size: xx-small;
+    color: rgb(255, 255, 255, 0.5);
+    margin-top: 0;
+}
+
+.logoutContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.header{
+    border-bottom: 1px solid #F9F9FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25%;
+
+}
+.headerTitle{
+    font-size: large;
+
+}
+.section{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.bottomContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.inputMsg{
+    font-size: small;
+    width: 80%;
+    border-color:rgb(255, 255, 255, 0.5);
+}
+.counter{
+    font-size: xx-small;
+    margin: 1vh;
+    
+
+}
+.tweetBtn{
+    border-radius: 10px;
+    padding: 1vh;
+    color: #F9F9FB;
+    background-color: deepskyblue;
+    font-weight: bolder;
+    border-color: aqua;
+    margin: 1vh;
+    width: 15vw;
+}
+.tweetBtn:hover{
+    cursor: pointer;
+}
+.msgContainer{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    overflow-y: scroll;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-left: 1px solid #F9F9FB;
+    padding: 2vh;
+    overflow-y: scroll;
+}
+.trendTitle{
+    font-size: large;
+}
+.trendsContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 193, 193, 0.5);
+    padding: 4px;
+    border-radius: 3px;
+    max-height: 100%;
+}
+
+.logoutBtn {
+    border-radius: 10px;
+    border-color: aqua;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: deepskyblue;
+    background-color: transparent;
+    font-weight: bolder;
+  }
+  .logoutBtn:hover {
+    color: white;
+    background-color: deepskyblue;
+    cursor: pointer;
+  }

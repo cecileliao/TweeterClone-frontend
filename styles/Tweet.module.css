@@ -1,0 +1,49 @@
+.tweetContainer{
+    border-bottom: 1px solid #F9F9FB;
+    padding:1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.userContainer{
+    display: flex;
+    align-items: center;
+}
+.nameSection{
+    display: flex;
+    padding-left: 1vh;
+}
+.firstname{
+    padding-right: 1vh;
+}
+.username{
+    font-size: small;
+    color: rgb(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+}
+.bottomSection{
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+}
+.tweetSection{
+    display: flex;
+}
+.heartContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.heartIcon{
+    padding-right: 0.5vh;
+}
+.heartIcon:hover{
+    cursor: pointer;
+}
+.trashIcon{
+    padding: 1vh;
+}
+.trashIcon:hover{
+    cursor: pointer;
+}
