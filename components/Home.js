@@ -66,7 +66,7 @@ function Home() {
     if (!user.token) {
             return;
         }
-    fetch('https://tweeter-clone-backend.vercel.app//trends')
+    fetch('https://tweeter-clone-backend.vercel.app/trends')
       .then(response => response.json())
       .then(data => {
       if (data) {
