@@ -92,9 +92,9 @@ function Home() {
 
   if(user.token===null) {
     return( <div style={{"text-align": "center"}}>
-            <h1>You are  wrong</h1>
+            <h1>Wrong way</h1>
             <img src="https://static.lacapsule.academy/avatar/5efc636e023091001ad915a7.jpg" alt="Wrong way" />
-            <div>Amin is watching you !</div>
+            <div>You are not connected!</div>
             </div>
           )
   }
